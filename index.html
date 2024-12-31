@@ -1,0 +1,357 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Portfolio Website
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: relative;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('12.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        .projects, .contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+        .project, .contact-form {
+            background: #f4f4f4;
+            padding: 2rem;
+            border-radius: 8px;
+            width: 300px;
+        }
+        .project img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .project h3 {
+            margin: 1rem 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 1rem 2rem;
+            border: none;
+            background: #333;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .progress {
+            height: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .clock {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 1.5rem;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <h1>
+    
+   </h1>
+   <div class="clock" id="clock">
+   </div>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#about">About</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  </header>
+</section><div class="hero">
+  <div>
+    <h1 style="font-family: monospace;" class="typing-effect">
+      HANIF FIRAS SYAFIQ
+    </h1>
+    <p style="font-family: monospace;" class="typing-effect">
+      Project
+  </div>
+</div>
+
+<style>
+  .typing-effect {
+    animation: typing 2s steps(30), blink 0.5s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #333;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+</style>
+  <section class="section" id="about">
+   <h2>
+    Tentang Saya
+   </h2>
+   <p>
+    Nama Saya Hanif Firas Syafirq, saya seorang mahasiswa yang sedang menempuh pendidikan di Universitas Respati Yogyakarya Jurusan Sistem Informasi. Saya memiliki minat dalam bidang teknologi dan senang belajar hal-hal baru.
+   </p>
+  </section>
+  <section class="section" id="projects">
+   <h2>
+    Project Saya
+   </h2>
+   <div class="projects">
+    <div class="project">
+     <img alt="Screenshot of Project 1" height="200" src="https://storage.googleapis.com/a1aa/image/IgW3nHo5SE5IEVhtCmMllfCGKzkxnZHL1EWXgCLlHSOMPOAKA.jpg" width="300"/>
+<h3>
+    Project 1
+   </h3>
+   <p>
+    Description of Project 1
+   </p>
+  </div>
+  <div class="project">
+   <img alt="Screenshot of Project 2" height="200" src="https://storage.googleapis.com/a1aa/image/1QmnNFfjby0KK6bHGaumcUdymCwcunnjrtQBExf7GXXce4AoA.jpg" width="300"/>
+   <h3>
+    Project 2
+   </h3>
+   <p>
+    Description of Project 2
+   </p>
+  </div>
+  <div class="project">
+   <img alt="Screenshot of Project 3" height="200" src="https://storage.googleapis.com/a1aa/image/bC0X2kSQmaYTOVcd3HfqcHwvAgtjnMePxgZ4BcAtEJnae4AoA.jpg" width="300"/>
+   <h3>
+    Project 3
+   </h3>
+   <p>
+    Description of Project 3
+   </p>
+  </div>
+  <div class="project">
+   <img alt="Screenshot of Project 4" height="200" src="https://storage.googleapis.com/a1aa/image/PcLWIb8jtCINIp1LhTEjLPh8X5ebd4jodYZCefeeQfYylHHAF.jpg" width="300"/>
+   <h3>
+    Project 4
+   </h3>
+   <p>
+    Description of Project 4
+   </p>
+  </div>
+ </div>
+</section>
+<section class="section" id="skills">
+ <h2>
+  Skills
+ </h2>
+ <div class="container">
+  <div class="row">
+   <div class="col-md-6">
+    <h3>
+     HTML
+    </h3>
+    <div class="progress">
+     <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" class="progress-bar bg-success" role="progressbar" style="width: 40%;">
+      40%
+     </div>
+    </div>
+   </div>
+   <div class="col-md-6">
+    <h3>
+     CSS
+    </h3>
+    <div class="progress">
+     <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" class="progress-bar bg-info" role="progressbar" style="width: 85%;">
+      85%
+     </div>
+    </div>
+   </div>
+   <div class="col-md-6">
+    <h3>
+     JavaScript
+    </h3>
+    <div class="progress">
+     <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" class="progress-bar bg-warning" role="progressbar" style="width: 75%;">
+      75%
+     </div>
+    </div>
+   </div>
+   <div class="col-md-6">
+    <h3>
+     React
+    </h3>
+    <div class="progress">
+     <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" class="progress-bar bg-danger" role="progressbar" style="width: 70%;">
+      70%
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+<section class="section" id="contact">
+ <h2>
+  Contact Me
+ </h2>
+ <div class="contact">
+  <form class="contact-form">
+   <input placeholder="Your Name" required="" type="text"/>
+   <input placeholder="Your Email" required="" type="email"/>
+   <textarea placeholder="Your Message" required="" rows="5"></textarea>
+   <button type="submit">
+    Send Message
+   </button>
+  </form>
+ </div>
+</section>
+<a href="https://api.whatsapp.com/send?phone=+6282226765591&text=Halo%20saya%20ingin%20menghubungi%20anda" target="_blank" rel="noopener noreferrer" class="float-button">
+  <button type="button" class="btn btn-success">
+    <i class="fab fa-whatsapp"></i> Hubungi Saya di whatsapp
+  </button>
+</a>
+
+<style>
+  .float-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+</style>
+
+<footer>
+    <footer>
+    <p>
+        2023 <a href="haviq.my.id">HanS</a>. All rights reserved.
+    </p>
+    <div class="social-media">
+        <a href="https://www.instagram.com/hanifsyafiq/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/hanifsyafiq/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/hanifsyafiq/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+</footer>
+
+<style>
+    .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .social-media a {
+        color: #fff;
+        font-size: 1.5rem;
+        transition: color 0.2s ease;
+    }
+    .social-media a:hover {
+        color: #ccc;
+    }
+</style>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+</script>
+<script>
+ function updateClock() {
+          const now = new Date();
+          const hours = now.getHours().toString().padStart(2, '0');
+          const minutes = now.getMinutes().toString().padStart(2, '0');
+          const seconds = now.getSeconds().toString().padStart(2, '0');
+          document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+      }
+
+      setInterval(updateClock, 1000);
+      updateClock();
+</script>
+</body>
+</html>
